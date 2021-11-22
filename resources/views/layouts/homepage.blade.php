@@ -48,7 +48,7 @@
 {{--                                    </li>--}}
                                     <li><a href="contact.html">Founder</a></li>
                                     <li><a href="contact.html">Services</a></li>
-                                    <li><a href="programs.html">Contact</a></li>
+                                    <li><a href="/contact">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>
