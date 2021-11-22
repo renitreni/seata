@@ -38,16 +38,17 @@
                             <nav>
                                 <ul id="navigation">
                                     <li><a href="index-2.html">Home</a></li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="programs.html">Programs</a></li>
-                                    <li><a href="blog.html">Blog</a>
-                                        <ul class="submenu">
-                                            <li><a href="blog.html">Blog</a></li>
-                                            <li><a href="blog_details.html">Blog Details</a></li>
-                                            <li><a href="elements.html">Elements</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+{{--                                    <li><a href="blog.html">Blog</a>--}}
+{{--                                        <ul class="submenu">--}}
+{{--                                            <li><a href="blog.html">Blog</a></li>--}}
+{{--                                            <li><a href="blog_details.html">Blog Details</a></li>--}}
+{{--                                            <li><a href="elements.html">Elements</a></li>--}}
+{{--                                        </ul>--}}
+{{--                                    </li>--}}
+                                    <li><a href="contact.html">Founder</a></li>
+                                    <li><a href="contact.html">Services</a></li>
+                                    <li><a href="programs.html">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>
