@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Livewire\AboutUs;
 use App\Http\Livewire\Home;
 use App\Http\Livewire\PermissionEdit;
 use App\Http\Livewire\RoleCreate;
@@ -23,6 +24,7 @@ use Illuminate\Support\Facades\Route;
 */
 Route::name('home.')->group(function() {
     Route::get('/', Home::class);
+    Route::get('/about-us', AboutUs::class);
 });
 
 Route::middleware(['auth:sanctum', 'verified'])->group(function () {
