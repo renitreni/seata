@@ -1,6 +1,5 @@
 <section class="slider-area position-relative">
     <div class="slider-active">
-
         <div class="single-slider slider-height hero-overly slider-bg1 d-flex  align-items-center">
             <div class="container">
                 <div class="row">
@@ -19,6 +18,7 @@
         </div>
     </div>
 </section>
+
 
 <section class="about-area section-bg section-padding">
     <div class="container">
@@ -139,7 +139,7 @@
             <div class="col-xl-12">
 
                 <div class="section-tittle  d-flex justify-content-between align-items-center">
-                    <h2>Top Stories</h2>
+                    <h2>Top Places in Poland</h2>
                     <a href="#" class="browse-btn mb-20">More Stories</a>
                 </div>
             </div>
@@ -149,10 +149,8 @@
                 <div class="properties pb-30">
                     <div class="properties__card">
                         <div class="properties__img">
-                            <a href="#"><img src="assets/img/gallery/class-img1.jpg" alt=""></a>
-                        </div>
-                        <div class="properties__caption text-center">
-                            <h3><a href="#">Linguistics alumna says recognizing Indigenous Languages Day is crucial to our histories</a></h3>
+                            {{-- <a href="#"><img src="/themes/universityedu/assets/img/gallery/Alley.jpeg" alt=""></a> --}}
+                            <a href="#"><img src="{{ asset('/themes/universityedu/assets/img/gallery/Alley.jpeg')}}"></a>
                         </div>
                     </div>
                 </div>
@@ -161,7 +159,7 @@
                 <div class="properties pb-30">
                     <div class="properties__card">
                         <div class="properties__img">
-                            <a href="#"><img src="assets/img/gallery/class-img2.jpg" alt=""></a>
+                            <a href="#"><img src="assets/img/gallery/about1.jpg" alt=""></a>
                         </div>
                         <div class="properties__caption text-center">
                             <h3><a href="#">Linguistics alumna says recognizing Indigenous Languages Day is crucial to our histories</a></h3>
