@@ -54,7 +54,7 @@
                         </div>
                     </div>
                     <div class="header-right-btn d-flex f-right align-items-center">
-                        <a href="#" class="header-btn2 d-none d-xl-inline-block">Call Us : <span> 0 (78) 675 3674 122</span></a>
+                        <a href="#" class="header-btn2 d-none d-xl-inline-block">Call Us : <span> 0 (50) 443 8849</span></a>
                         <ul class="header-social d-none d-sm-block">
                             <li><a href="https://www.fb.com/sai4ull"><i class="fab fa-facebook-square"></i></a></li>
                             <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>

@@ -147,40 +147,111 @@
         <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="properties pb-30">
-                    <div class="properties__card">
-                        <div class="properties__img">
+                    <div class="properties__card text-center">
+                        <div class="properties__img img-thumbnail mx-auto d-block">
                             {{-- <a href="#"><img src="/themes/universityedu/assets/img/gallery/Alley.jpeg" alt=""></a> --}}
-                            <a href="#"><img src="{{ asset('/themes/universityedu/assets/img/gallery/Alley.jpeg')}}"></a>
+                            <a href="#"><img style="width:530px; height: 450px;" src="{{ asset('/themes/universityedu/assets/img/gallery/Alley.jpeg')}}"></a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="properties pb-30">
-                    <div class="properties__card">
-                        <div class="properties__img">
-                            <a href="#"><img src="assets/img/gallery/about1.jpg" alt=""></a>
+                    <div class="properties__card text-center">
+                        <div class="properties__img img-thumbnail mx-auto d-block">
+                            <a href="#"><img style="width:530px; height: 450px;" src="{{ asset('/themes/universityedu/assets/img/gallery/carriage.jpeg')}}"></a>
                         </div>
-                        <div class="properties__caption text-center">
+                        {{-- <div class="properties__caption text-center">
                             <h3><a href="#">Linguistics alumna says recognizing Indigenous Languages Day is crucial to our histories</a></h3>
+                        </div> --}}
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="properties pb-30">
+                    <div class="properties__card text-center">
+                        <div class="properties__img img-thumbnail mx-auto d-block">
+                            <a href="#"><img style="width:530px; height: 450px;"  src="{{ asset('/themes/universityedu/assets/img/gallery/ceiling_paint.jpeg')}}"></a>
+                        </div>
+                        {{-- <div class="properties__caption text-center">
+                            <h3><a href="#">Linguistics alumna says recognizing Indigenous Languages Day is crucial to our histories</a></h3>
+                        </div> --}}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="properties pb-30">
+                    <div class="properties__card text-center">
+                        <div class="properties__img img-thumbnail mx-auto d-block">
+                            <a href="#"><img style="width:530px; height: 450px;" src="{{ asset('/themes/universityedu/assets/img/gallery/Church.jpeg')}}"></a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="properties pb-30">
-                    <div class="properties__card">
-                        <div class="properties__img">
-                            <a href="#"><img src="assets/img/gallery/class-img3.jpg" alt=""></a>
+                    <div class="properties__card text-center">
+                        <div class="properties__img img-thumbnail mx-auto d-block">
+                            <a href="#"><img style="width:530px; height: 450px;" src="{{ asset('/themes/universityedu/assets/img/gallery/Clock_Tower.jpeg')}}"></a>
                         </div>
-                        <div class="properties__caption text-center">
+                        {{-- <div class="properties__caption text-center">
                             <h3><a href="#">Linguistics alumna says recognizing Indigenous Languages Day is crucial to our histories</a></h3>
+                        </div> --}}
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="properties pb-30">
+                    <div class="properties__card text-center">
+                        <div class="properties__img img-thumbnail mx-auto d-block">
+                            <a href="#"><img style="width:530px; height: 450px;" src="{{ asset('/themes/universityedu/assets/img/gallery/Metro_Train.jpeg')}}"></a>
                         </div>
+                        {{-- <div class="properties__caption text-center">
+                            <h3><a href="#">Linguistics alumna says recognizing Indigenous Languages Day is crucial to our histories</a></h3>
+                        </div> --}}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="properties pb-30">
+                    <div class="properties__card text-center">
+                        <div class="properties__img img-thumbnail mx-auto d-block">
+                            <a href="#"><img style="width:530px; height: 450px;" src="{{ asset('/themes/universityedu/assets/img/gallery/Overview.jpeg')}}"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="properties pb-30">
+                    <div class="properties__card text-center">
+                        <div class="properties__img img-thumbnail mx-auto d-block">
+                            <a href="#"><img style="width:530px; height: 450px;" src="{{ asset('/themes/universityedu/assets/img/gallery/University.jpeg')}}"></a>
+                        </div>
+                        {{-- <div class="properties__caption text-center">
+                            <h3><a href="#">Linguistics alumna says recognizing Indigenous Languages Day is crucial to our histories</a></h3>
+                        </div> --}}
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="properties pb-30">
+                    <div class="properties__card text-center">
+                        <div class="properties__img img-thumbnail mx-auto d-block">
+                            <a href="#"><img style="width:530px; height: 450px;" src="{{ asset('/themes/universityedu/assets/img/gallery/Statue.jpeg')}}"></a>
+                        </div>
+                        {{-- <div class="properties__caption text-center">
+                            <h3><a href="#">Linguistics alumna says recognizing Indigenous Languages Day is crucial to our histories</a></h3>
+                        </div> --}}
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 </section>
 
 <section class="brand-area section-padding">
