@@ -15,6 +15,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/icon/xfavicon.png.pagespeed.ic.VDbWx8TeWc.png">
     <link rel="stylesheet" href="{{ asset('themes/universityedu/assets/css/bootstrap.min.css+owl.carousel.min.css+slicknav.css+animate.min.css+magnific-popup.css+fontawesome-all.min.css+themify-icons.css+slick.css+nice-select.css') }}" />
     <link rel="stylesheet" href="{{ asset('themes/universityedu/assets/css/A.style.css.pagespeed.cf.ihVIXitPqH.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/main.css') }}">
 
 @livewireStyles
 
