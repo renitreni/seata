@@ -181,6 +181,9 @@
     <a title="Go to Top" href="#"><i class="fas fa-long-arrow-alt-up"></i></a>
 </div>
 
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script>
+
+@livewireScripts
 <script src="{{ asset('themes/universityedu/assets/js/vendor/modernizr-3.5.0.min.js') }}"></script>
 <script src="{{ asset('themes/universityedu/assets/js/popper.min.js+bootstrap.min.js.pagespeed.jc.FmVyK_a8l2.js') }}"></script><script>eval(mod_pagespeed_j4u5mnk$uM);</script>
 <script>eval(mod_pagespeed_YE8CKakLEt);</script>
@@ -197,10 +200,9 @@
 
     gtag('config', 'UA-23581568-13');
 </script>
+
 <script defer src="../../../static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"650134a09b662254","version":"2021.5.1","si":10}'></script>
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v64f9daad31f64f81be21cbef6184a5e31634941392597" integrity="sha512-gV/bogrUTVP2N3IzTDKzgP0Js1gg4fbwtYB6ftgLbKQu/V8yH2+lrKCfKHelh4SO3DPzKj4/glTO+tNJGDnb0A==" data-cf-beacon='{"rayId":"6b10f7c4fd133d9a","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.11.0","si":100}' crossorigin="anonymous"></script>
 </body>
-
-@livewireScripts
 </body>
 </html>
