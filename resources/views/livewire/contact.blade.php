@@ -1,3 +1,5 @@
+<div>
+
 <div class="slider-area">
     <div class="slider-height2 slider-bg1 d-flex hero-overly align-items-center">
         <div class="container">
@@ -12,7 +14,6 @@
         </div>
     </div>
 </div>
-
 
 
 <section class="contact-section">
@@ -42,14 +43,13 @@
                     </div>
                     <div class="col-12">
                         <div class="form-group">
-                        {{ $subject_a }}
                             <input class="form-control" name="subject" id="subject" type="text" placeholder="Enter Subject" wire:model="subject_a">
                         </div>
                     </div>
                 </div>
                 <div class="form-group mt-3">
                     
-                    <a class="button button-contactForm boxed-btn" href = "mailto: Info@seataedu.com">Send Email</a>
+                    <a class="button button-contactForm boxed-btn" href = "mailto: Info@seataedu.com?subject = {{ $subject_a }}&body = {{ $body }}">Send Email</a>
                 </div>
                 </form>
                 </div>
@@ -80,3 +80,7 @@
         </div>
     </div>
 </section>
+</div>
+
+
+
