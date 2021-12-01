@@ -1,5 +1,5 @@
 <div class="slider-area">
-    <div class="slider-height2 slider-bg2 d-flex hero-overly align-items-center">
+    <div class="slider-height2 slider-bg1 d-flex hero-overly align-items-center">
         <div class="container">
             <div class="row">
                 <div class="col-xxl-5 col-xl-6 col-lg-7 col-md-9">
@@ -68,7 +68,8 @@
                 <div class="media contact-info">
                     <span class="contact-info__icon"><i class="ti-email"></i></span>
                     <div class="media-body">
-                        <h3><a href="https://preview.colorlib.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="3a494f4a4a55484e7a595556554856535814595557">[email&#160;protected]</a></h3>
+                        <h3><a>info@seataedu.com</a></h3>
+                        {{-- <h3><a href="https://preview.colorlib.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="3a494f4a4a55484e7a595556554856535814595557">[email&#160;protected]</a></h3> --}}
                         <p>Send us your query anytime!</p>
                     </div>
                 </div>

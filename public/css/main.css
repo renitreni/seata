@@ -1,0 +1,30 @@
+.carousel-item {
+    height: 32rem;
+}
+
+.slider-bg2 {
+    background-image: url("themes/universityedu/assets/img/gallery/Church.jpeg") !important; 
+}
+
+.img-carousel  {
+    object-fit: cover;
+}
+
+.img-gallery {
+    max-height: 500px !important;
+
+}
+
+.carousel-text-custom {
+    color: #fff !important;
+}
+
+.slider-bg1 {
+    background-image: url('/themes/universityedu/assets/img/gallery/University.jpeg') !important ;
+    
+}
+
+.slider-height2 {
+    height: 500px !important;
+    object-fit: cover;
+}

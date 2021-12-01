@@ -55,7 +55,7 @@
                         </div>
                     </div>
                     <div class="header-right-btn d-flex f-right align-items-center">
-                        <a href="#" class="header-btn2 d-none d-xl-inline-block">Call Us : <span> 0 (50) 443 8849</span></a>
+                        <a href="#" class="header-btn2 d-none d-xl-inline-block">Call Us : <span> +1 253 565 2365</span></a>
                         <ul class="header-social d-none d-sm-block">
                             <li><a href="https://www.fb.com/sai4ull"><i class="fab fa-facebook-square"></i></a></li>
                             <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
@@ -167,7 +167,7 @@
                     <div class="row">
                         <div class="col-xl-12 ">
                             <div class="footer-copy-right text-center">
-                                <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com/" target="_blank" rel="nofollow noopener">Colorlib</a></p>
+                                <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart color-danger" aria-hidden="true"></i> by <a href="#" target="_blank" rel="nofollow noopener">Seata</a></p>
                             </div>
                         </div>
                     </div>

@@ -1,4 +1,4 @@
-<section class="slider-area position-relative">
+{{-- <section class="slider-area position-relative">
     <div class="slider-active">
         <div class="single-slider slider-height hero-overly slider-bg1 d-flex  align-items-center">
             <div class="container">
@@ -17,6 +17,42 @@
             </div>
         </div>
     </div>
+</section> --}}
+<section class="slider-area position-relative">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="height:45rem;">
+                <img src="{{ asset('/themes/universityedu/assets/img/gallery/University.jpeg')}}" class="img-carousel d-block w-100 h-100">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="carousel-text-custom">University</h1>
+                    <h4 class="carousel-text-custom">Some representative placeholder content for the second slide.</h4>
+                </div>
+            </div>
+            <div class="carousel-item" style="height:45rem;">
+                <img src="{{ asset('/themes/universityedu/assets/img/gallery/Statue.jpeg')}}" class="img-carousel d-block w-100 h-100">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="carousel-text-custom">Theme Park</h1>
+                    <h4 class="carousel-text-custom">Some representative placeholder content for the second slide.</h4>
+                </div>
+            </div>
+            <div class="carousel-item" style="height:45rem;">
+                <img src="{{ asset('/themes/universityedu/assets/img/gallery/Church.jpeg')}}" class="img-carousel d-block w-100 h-100">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="carousel-text-custom">Bydgoszcz</h1>
+                    <h4 class="carousel-text-custom">Some representative placeholder content for the second slide.</h4>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+</div>
 </section>
 
 
@@ -25,8 +61,8 @@
         <div class="row align-items-center">
             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12">
 
-                <div class="about-img about-img1  ">
-                    <img src="assets/img/gallery/about1.jpg" alt="">
+                <div class="about-img about-img1">
+                    <img class="img-fluid img-gallery" src="{{ asset('/themes/universityedu/assets/img/gallery/Alley.jpeg')}}">
                 </div>
             </div>
             <div class="offset-xl-1 offset-lg-0 offset-sm-1 col-xxl-5 col-xl-5 col-lg-6 col-md-9 col-sm-11">
@@ -130,7 +166,7 @@
         </div>
     </div>
 
-    <div class="visit-team"></div>
+    <div class="visit-team" style="background-image: url('{{ asset('themes/universityedu/assets/img/gallery/Table.jpeg') }}')"></div>
 </section>
 
 <section class="class-offer-area section-padding border-bottom">
@@ -149,8 +185,10 @@
                 <div class="properties pb-30">
                     <div class="properties__card text-center">
                         <div class="properties__img img-thumbnail mx-auto d-block">
-                            {{-- <a href="#"><img src="/themes/universityedu/assets/img/gallery/Alley.jpeg" alt=""></a> --}}
-                            <a href="#"><img style="width:530px; height: 450px;" src="{{ asset('/themes/universityedu/assets/img/gallery/Alley.jpeg')}}"></a>
+                            <a href="#"><img class="img-fluid img-gallery" src="{{ asset('/themes/universityedu/assets/img/gallery/Alley.jpeg')}}"></a>
+                        </div>
+                         <div class="properties__caption text-center">
+                            <h3><a href="#">Holy Alley</a></h3>
                         </div>
                     </div>
                 </div>
@@ -159,33 +197,10 @@
                 <div class="properties pb-30">
                     <div class="properties__card text-center">
                         <div class="properties__img img-thumbnail mx-auto d-block">
-                            <a href="#"><img style="width:530px; height: 450px;" src="{{ asset('/themes/universityedu/assets/img/gallery/carriage.jpeg')}}"></a>
+                            <a href="#"><img  class="img-fluid img-gallery" src="{{ asset('/themes/universityedu/assets/img/gallery/carriage.jpeg')}}"></a>
                         </div>
-                        {{-- <div class="properties__caption text-center">
-                            <h3><a href="#">Linguistics alumna says recognizing Indigenous Languages Day is crucial to our histories</a></h3>
-                        </div> --}}
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="properties pb-30">
-                    <div class="properties__card text-center">
-                        <div class="properties__img img-thumbnail mx-auto d-block">
-                            <a href="#"><img style="width:530px; height: 450px;"  src="{{ asset('/themes/universityedu/assets/img/gallery/ceiling_paint.jpeg')}}"></a>
-                        </div>
-                        {{-- <div class="properties__caption text-center">
-                            <h3><a href="#">Linguistics alumna says recognizing Indigenous Languages Day is crucial to our histories</a></h3>
-                        </div> --}}
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="properties pb-30">
-                    <div class="properties__card text-center">
-                        <div class="properties__img img-thumbnail mx-auto d-block">
-                            <a href="#"><img style="width:530px; height: 450px;" src="{{ asset('/themes/universityedu/assets/img/gallery/Church.jpeg')}}"></a>
+                        <div class="properties__caption text-center">
+                            <h3><a href="#">Horse Carriages</a></h3>
                         </div>
                     </div>
                 </div>
@@ -194,23 +209,11 @@
                 <div class="properties pb-30">
                     <div class="properties__card text-center">
                         <div class="properties__img img-thumbnail mx-auto d-block">
-                            <a href="#"><img style="width:530px; height: 450px;" src="{{ asset('/themes/universityedu/assets/img/gallery/Clock_Tower.jpeg')}}"></a>
+                            <a href="#"><img class="img-fluid img-gallery" src="{{ asset('/themes/universityedu/assets/img/gallery/ceiling_paint.jpeg')}}"></a>
                         </div>
-                        {{-- <div class="properties__caption text-center">
-                            <h3><a href="#">Linguistics alumna says recognizing Indigenous Languages Day is crucial to our histories</a></h3>
-                        </div> --}}
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="properties pb-30">
-                    <div class="properties__card text-center">
-                        <div class="properties__img img-thumbnail mx-auto d-block">
-                            <a href="#"><img style="width:530px; height: 450px;" src="{{ asset('/themes/universityedu/assets/img/gallery/Metro_Train.jpeg')}}"></a>
+                        <div class="properties__caption text-center">
+                            <h3><a href="#">Cathedral</a></h3>
                         </div>
-                        {{-- <div class="properties__caption text-center">
-                            <h3><a href="#">Linguistics alumna says recognizing Indigenous Languages Day is crucial to our histories</a></h3>
-                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -220,7 +223,23 @@
                 <div class="properties pb-30">
                     <div class="properties__card text-center">
                         <div class="properties__img img-thumbnail mx-auto d-block">
-                            <a href="#"><img style="width:530px; height: 450px;" src="{{ asset('/themes/universityedu/assets/img/gallery/Overview.jpeg')}}"></a>
+                            <a href="#"><img class="img-fluid img-gallery" src="{{ asset('/themes/universityedu/assets/img/gallery/Church.jpeg')}}"></a>
+                        </div>
+                        <div class="properties__caption text-center">
+                            <h3><a href="#">Bydgoszcz</a></h3>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="properties pb-30">
+                    <div class="properties__card text-center">
+                        <div class="properties__img img-thumbnail mx-auto d-block">
+                            <a href="#"><img class="img-fluid img-gallery" src="{{ asset('/themes/universityedu/assets/img/gallery/Clock_Tower.jpeg')}}"></a>
+                        </div>
+                        <div class="properties__caption text-center">
+                            <h3><a href="#">Cafe shop</a></h3>
                         </div>
                     </div>
                 </div>
@@ -229,11 +248,25 @@
                 <div class="properties pb-30">
                     <div class="properties__card text-center">
                         <div class="properties__img img-thumbnail mx-auto d-block">
-                            <a href="#"><img style="width:530px; height: 450px;" src="{{ asset('/themes/universityedu/assets/img/gallery/University.jpeg')}}"></a>
+                            <a href="#"><img class="img-fluid img-gallery" src="{{ asset('/themes/universityedu/assets/img/gallery/Metro_Train.jpeg')}}"></a>
                         </div>
-                        {{-- <div class="properties__caption text-center">
-                            <h3><a href="#">Linguistics alumna says recognizing Indigenous Languages Day is crucial to our histories</a></h3>
-                        </div> --}}
+                        <div class="properties__caption text-center">
+                            <h3><a href="#">Warsaw metro</a></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="properties pb-30">
+                    <div class="properties__card text-center">
+                        <div class="properties__img img-thumbnail mx-auto d-block">
+                            <a href="#"><img class="img-fluid img-gallery" src="{{ asset('/themes/universityedu/assets/img/gallery/Overview.jpeg')}}"></a>
+                        </div>
+                        <div class="properties__caption text-center">
+                            <h3><a href="#">Over Looking</a></h3>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -241,11 +274,23 @@
                 <div class="properties pb-30">
                     <div class="properties__card text-center">
                         <div class="properties__img img-thumbnail mx-auto d-block">
-                            <a href="#"><img style="width:530px; height: 450px;" src="{{ asset('/themes/universityedu/assets/img/gallery/Statue.jpeg')}}"></a>
+                            <a href="#"><img class="img-fluid img-gallery" src="{{ asset('/themes/universityedu/assets/img/gallery/University.jpeg')}}"></a>
                         </div>
-                        {{-- <div class="properties__caption text-center">
-                            <h3><a href="#">Linguistics alumna says recognizing Indigenous Languages Day is crucial to our histories</a></h3>
-                        </div> --}}
+                        <div class="properties__caption text-center">
+                            <h3><a href="#">Kielce</a></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="properties pb-30">
+                    <div class="properties__card text-center">
+                        <div class="properties__img img-thumbnail mx-auto d-block">
+                            <a href="#"><img class="img-fluid img-gallery" src="{{ asset('/themes/universityedu/assets/img/gallery/Statue.jpeg')}}"></a>
+                        </div>
+                        <div class="properties__caption text-center">
+                            <h3><a href="#">Theme Park</a></h3>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -294,7 +339,7 @@
 
 <section class="visit-one fix">
 
-    <div class="visit-team">
+    <div class="visit-team img-fluid img-gallery" style="background-image: url('{{ asset('themes/universityedu/assets/img/gallery/pictures.jpeg') }}')">
         <div class="wrapper"></div>
     </div>
 

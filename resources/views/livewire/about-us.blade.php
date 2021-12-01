@@ -1,5 +1,5 @@
 <div class="slider-area">
-    <div class="slider-height2 slider-bg2 hero-overly d-flex align-items-center">
+    <div class="slider-height2 slider-bg1 hero-overly d-flex align-items-center">
         <div class="container">
             <div class="row">
                 <div class="col-xxl-5 col-xl-6 col-lg-7 col-md-9">
@@ -93,7 +93,7 @@
         </div>
     </div>
 
-    <div class="visit-team"></div>
+    <div class="visit-team" style="background-image: url('{{ asset('themes/universityedu/assets/img/gallery/Table.jpeg') }}')"></div>
 </section>
 
 
@@ -195,7 +195,7 @@
 
 <section class="visit-one fix">
 
-    <div class="visit-team">
+    <div class="visit-team img-fluid img-gallery" style="background-image: url('{{ asset('themes/universityedu/assets/img/gallery/pictures.jpeg') }}')">
         <div class="wrapper"></div>
     </div>
 
