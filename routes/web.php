@@ -12,6 +12,7 @@ use App\Http\Livewire\UserForm;
 use App\Models\User;
 use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\Contact;
+use App\Http\Livewire\Founder;
 
 
 /*
@@ -28,6 +29,7 @@ Route::name('home.')->group(function() {
     Route::get('/', Home::class);
     Route::get('/about-us', AboutUs::class);
     Route::get('/contact', Contact::class);
+    Route::get('/founder', Founder::class);
 });
 
 Route::middleware(['auth:sanctum', 'verified'])->group(function () {

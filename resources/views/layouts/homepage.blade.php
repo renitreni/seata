@@ -36,21 +36,29 @@
                             </a>
                         </div>
                         <div class="main-menu d-none d-lg-block">
-                            <nav>
+                            {{-- <nav class="navbar">
                                 <ul id="navigation">
                                     <li><a href="/">Home</a></li>
                                     <li><a href="/about-us">About Us</a></li>
-{{--                                    <li><a href="blog.html">Blog</a>--}}
-{{--                                        <ul class="submenu">--}}
-{{--                                            <li><a href="blog.html">Blog</a></li>--}}
-{{--                                            <li><a href="blog_details.html">Blog Details</a></li>--}}
-{{--                                            <li><a href="elements.html">Elements</a></li>--}}
-{{--                                        </ul>--}}
-{{--                                    </li>--}}
                                     <li><a href="contact.html">Founder</a></li>
                                     <li><a href="contact.html">Services</a></li>
                                     <li><a href="/contact">Contact</a></li>
                                 </ul>
+                            </nav> --}}
+                            <nav class="navbar navbar-expand-lg">
+                                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarMenu">
+                                    <ul id="navigation" class="navbar-nav">
+                                        <li class="nav-item"><a  href="/">Home</a></li>
+                                        <li class="nav-item"><a href="/about-us">About Us</a></li>
+                                        <li class="nav-item"><a href="/founder">Founder</a></li>
+                                        <li class="nav-item"><a href="contact.html">Services</a></li>
+                                        <li class="nav-item"><a href="/contact">Contact</a></li>
+                                    </ul>
+                                </div>
+                                
                             </nav>
                         </div>
                     </div>
@@ -167,7 +175,11 @@
                     <div class="row">
                         <div class="col-xl-12 ">
                             <div class="footer-copy-right text-center">
-                                <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart color-danger" aria-hidden="true"></i> by <a href="#" target="_blank" rel="nofollow noopener">Seata</a></p>
+                                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright ©<script async="" src="//cdn.matomo.cloud/bongbongsaraph.matomo.cloud/matomo.js"></script><script>document.write(new Date().getFullYear());</script>
+                                All rights reserved | Yaramay Maintenance Services
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </p>
                             </div>
                         </div>
                     </div>

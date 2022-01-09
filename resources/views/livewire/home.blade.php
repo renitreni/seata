@@ -1,23 +1,3 @@
-{{-- <section class="slider-area position-relative">
-    <div class="slider-active">
-        <div class="single-slider slider-height hero-overly slider-bg1 d-flex  align-items-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-10 col-sm-12">
-                        <div class="hero-caption">
-                            <span data-animation="fadeInUp" data-delay=".2s">EDUCATION & SCHOOL</span>
-                            <h1 data-animation="fadeInUp" data-delay=".2s">SHOWCASE COURSES,
-                                EVENTS AND MORE!</h1>
-                            <P data-animation="fadeInUp" data-delay=".4s">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Suspendisse varius enim in eros elementum tristique.</P>
-                            <a href="programs.html" class="btn_1 hero-btn" data-animation="fadeInUp" data-delay=".8s">Get Started Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> --}}
 <section class="slider-area position-relative">
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -25,21 +5,21 @@
                 <img src="{{ asset('/themes/universityedu/assets/img/gallery/University.jpeg')}}" class="img-carousel d-block w-100 h-100">
                 <div class="carousel-caption d-none d-md-block">
                     <h1 class="carousel-text-custom">University</h1>
-                    <h4 class="carousel-text-custom">Some representative placeholder content for the second slide.</h4>
+                    {{-- <h4 class="carousel-text-custom">Some representative placeholder content for the second slide.</h4> --}}
                 </div>
             </div>
             <div class="carousel-item" style="height:45rem;">
                 <img src="{{ asset('/themes/universityedu/assets/img/gallery/Statue.jpeg')}}" class="img-carousel d-block w-100 h-100">
                 <div class="carousel-caption d-none d-md-block">
                     <h1 class="carousel-text-custom">Theme Park</h1>
-                    <h4 class="carousel-text-custom">Some representative placeholder content for the second slide.</h4>
+                    {{-- <h4 class="carousel-text-custom">Some representative placeholder content for the second slide.</h4> --}}
                 </div>
             </div>
             <div class="carousel-item" style="height:45rem;">
                 <img src="{{ asset('/themes/universityedu/assets/img/gallery/Church.jpeg')}}" class="img-carousel d-block w-100 h-100">
                 <div class="carousel-caption d-none d-md-block">
                     <h1 class="carousel-text-custom">Bydgoszcz</h1>
-                    <h4 class="carousel-text-custom">Some representative placeholder content for the second slide.</h4>
+                    {{-- <h4 class="carousel-text-custom">Some representative placeholder content for the second slide.</h4> --}}
                 </div>
             </div>
         </div>
