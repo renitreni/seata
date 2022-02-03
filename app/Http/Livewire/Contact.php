@@ -35,5 +35,7 @@ class Contact extends Component
         $this->from      = '';
         $this->name      = '';
         $this->body      = '';
+
+        session()->flash('message', 'Your message has been sent.');
     }
 }
