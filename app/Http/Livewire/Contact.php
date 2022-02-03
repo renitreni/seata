@@ -28,7 +28,7 @@ class Contact extends Component
         ]);
 
         Mail::to(['info@seataedu.com'])
-            ->bcc(['yaramayservices@gmail.com'])
+            ->bcc(['yaramayservices@gmail.com', 'sab_princes@yahoo.com'])
             ->send(new NewContactEmail($this->subject_a, $this->from, $this->name, $this->body));
 
         $this->subject_a = '';
